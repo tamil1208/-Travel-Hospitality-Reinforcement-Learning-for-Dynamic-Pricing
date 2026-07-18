@@ -11,6 +11,13 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)
+![Stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
+![Forks](https://img.shields.io/github/forks/your-username/your-repo?style=social)
+![Issues](https://img.shields.io/github/issues/your-username/your-repo)
+![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo)
+![Repo Size](https://img.shields.io/github/repo-size/your-username/your-repo)
+![Contributors](https://img.shields.io/github/contributors/your-username/your-repo)
+![Languages](https://img.shields.io/github/languages/top/your-username/your-repo)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)
 ![License](https://img.shields.io/badge/License-MIT-success)
@@ -121,7 +128,19 @@ The objective is to determine the optimal price at every decision step to maximi
                            ▼
                    Policy Optimization
 ```
+## 📈 Project Highlights
 
+- 🎯 Dynamic Pricing using Reinforcement Learning
+- 🧠 Custom Gymnasium Environment
+- 📊 Q-Learning & Deep Q-Network (DQN)
+- 💰 Revenue Optimization
+- 📉 Demand Simulation
+- 📦 Inventory Management
+- 📅 Booking Horizon Simulation
+- 📈 Streamlit Analytics Dashboard
+- 🔄 Experience Replay
+- 🎲 Epsilon-Greedy Exploration
+  
 ---
 
 # 📂 Repository Structure
@@ -157,16 +176,21 @@ travel-hospitality-dynamic-pricing-rl/
 
 # 🛠 Technology Stack
 
-| Category               | Technologies                 |
-| ---------------------- | ---------------------------- |
-| Programming Language   | Python 3.11                  |
-| Reinforcement Learning | Gymnasium, Stable-Baselines3 |
-| Deep Learning          | PyTorch                      |
-| Data Processing        | NumPy, Pandas                |
-| Visualization          | Matplotlib, Seaborn          |
-| Dashboard              | Streamlit                    |
-| Development Tools      | Git, GitHub, VS Code         |
-| Notebook               | Jupyter Notebook             |
+## 🛠️ Technologies Used
+
+| Category | Technologies |
+|----------|--------------|
+| **Programming Language** | Python 3.11 |
+| **Reinforcement Learning** | Gymnasium, Stable-Baselines3 |
+| **Deep Learning** | PyTorch |
+| **Data Processing** | NumPy, Pandas |
+| **Visualization** | Matplotlib, Seaborn |
+| **Dashboard** | Streamlit |
+| **Development Tools** | Git, GitHub, VS Code |
+| **Notebook** | Jupyter Notebook |
+| **Package Manager** | pip |
+| **Version Control** | Git |
+| **Operating System** | Windows / Linux |
 
 ---
 
@@ -402,6 +426,10 @@ This project is released under the MIT License.
 B.Tech – Computer Science and Engineering
 
 Artificial Intelligence • Machine Learning • Data Science
+![Data Science](https://img.shields.io/badge/Data-Science-blue)
+![Analytics](https://img.shields.io/badge/Analytics-Business%20Intelligence-yellow)
+![Simulation](https://img.shields.io/badge/Simulation-Market%20Environment-success)
+![Optimization](https://img.shields.io/badge/Optimization-Revenue-red)
 
 **GitHub:** https://github.com/tamil1208
 
