@@ -3,24 +3,34 @@
 <div align="center">
 
 ### Revenue Optimization using Reinforcement Learning, Gymnasium, Q-Learning & Deep Q-Network (DQN)
-
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Gymnasium](https://img.shields.io/badge/Gymnasium-Reinforcement%20Learning-green)
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red?logo=pytorch)
-![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-RL-purple)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?logo=pytorch)
 ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
+![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-RL-purple)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit)
-![Stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)
+![License](https://img.shields.io/badge/License-MIT-success)![Machine Learning](https://img.shields.io/badge/Machine%20Learning-AI-blueviolet)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement-Learning-success)
+![Deep Learning](https://img.shields.io/badge/Deep-Learning-red)
+![Q-Learning](https://img.shields.io/badge/Q--Learning-Algorithm-blue)
+![DQN](https://img.shields.io/badge/Deep%20Q-Network-orange)
+![MDP](https://img.shields.io/badge/Markov-Decision%20Process-green)
+![OpenAI Gym](https://img.shields.io/badge/OpenAI-Gymnasium-lightgrey)![Data Science](https://img.shields.io/badge/Data-Science-blue)
+![Analytics](https://img.shields.io/badge/Analytics-Business%20Intelligence-yellow)
+![Simulation](https://img.shields.io/badge/Simulation-Market%20Environment-success)
+![Optimization](https://img.shields.io/badge/Optimization-Revenue-red)![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?logo=streamlit)
+![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222222?logo=github)![Stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
 ![Forks](https://img.shields.io/github/forks/your-username/your-repo?style=social)
 ![Issues](https://img.shields.io/github/issues/your-username/your-repo)
 ![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo)
 ![Repo Size](https://img.shields.io/github/repo-size/your-username/your-repo)
 ![Contributors](https://img.shields.io/github/contributors/your-username/your-repo)
 ![Languages](https://img.shields.io/github/languages/top/your-username/your-repo)
-![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)
-![License](https://img.shields.io/badge/License-MIT-success)
 
 **An end-to-end Reinforcement Learning project that learns optimal pricing strategies for airline seats or hotel rooms using a custom Gymnasium environment.**
 
@@ -426,10 +436,6 @@ This project is released under the MIT License.
 B.Tech – Computer Science and Engineering
 
 Artificial Intelligence • Machine Learning • Data Science
-![Data Science](https://img.shields.io/badge/Data-Science-blue)
-![Analytics](https://img.shields.io/badge/Analytics-Business%20Intelligence-yellow)
-![Simulation](https://img.shields.io/badge/Simulation-Market%20Environment-success)
-![Optimization](https://img.shields.io/badge/Optimization-Revenue-red)
 
 **GitHub:** https://github.com/tamil1208
 
