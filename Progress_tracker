@@ -7,6 +7,6 @@
 | Member 3 | Analysis & Policy Evaluation | ✅ | ✅ | ✅ | ⬜ | ✅ |
 | Member 4 | Eval & Deploy Lead | ✅ | ✅ | ✅ | ✅ | ⬜ |
 
-## Notes
+# Notes
 - All members on track for Week 1 minimum commit requirement (5/member).
 - Environment skeleton, reward function, random agent baseline all in progress.
