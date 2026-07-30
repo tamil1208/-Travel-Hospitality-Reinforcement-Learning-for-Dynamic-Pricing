@@ -35,7 +35,7 @@
 - Initial training showed improved cumulative rewards compared to the random baseline.
 - Model checkpoints, training logs, and evaluation metrics committed to the repository.
 
----
+----
 
 ### Week 3
 
