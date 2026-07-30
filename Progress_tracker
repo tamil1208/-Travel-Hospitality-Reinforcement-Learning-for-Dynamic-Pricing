@@ -30,3 +30,26 @@
 
 **Progress Highlights**
 
+- DQN agent implemented and integrated with the custom Gymnasium environment.
+- Hyperparameter tuning and reward optimization initiated.
+- Initial training showed improved cumulative rewards compared to the random baseline.
+- Model checkpoints, training logs, and evaluation metrics committed to the repository.
+
+---
+
+### Week 3
+
+| Member | Role | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
+|--------|------|:------:|:------:|:------:|:------:|:------:|
+| Member 1 | Environment & Simulation Engineer | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Member 2 | RL Algorithm Engineer | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Member 3 | Analysis & Policy Evaluation | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Member 4 | Evaluation & Deployment Lead | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Progress Highlights**
+
+- Final DQN model evaluated against the baseline pricing strategy.
+- Performance analyzed using revenue, occupancy, and cumulative reward metrics.
+- Streamlit dashboard integrated for real-time dynamic pricing visualization.
+- Codebase refactored, documentation completed, and deployment prepared.
+- All team members met the required weekly commit target and successfully completed the Week 3 milestones.
