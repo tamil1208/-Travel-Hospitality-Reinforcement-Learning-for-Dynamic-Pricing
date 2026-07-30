@@ -8,3 +8,13 @@
 | Member 2 | RL Algorithm Engineer | ✅ | ✅ | ✅ | ⬜ | ⬜ |
 | Member 3 | Analysis & Policy Evaluation | ✅ | ✅ | ✅ | ⬜ | ✅ |
 | Member 4 | Evaluation & Deployment Lead | ✅ | ✅ | ✅ | ✅ | ⬜ |
+
+**Progress Highlights**
+
+- Project repository initialized with structured folders.
+- Custom Gymnasium environment skeleton created.
+- Reward function design initiated.
+- Random agent baseline implemented for comparison.
+- Team on track to meet the minimum weekly commit requirement.
+
+---
