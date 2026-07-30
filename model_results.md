@@ -40,3 +40,33 @@ This document records the performance and progress of all pricing agents develop
 
 ---
 
+# 📅 Week 3
+
+| Agent | Mean Revenue | Std Dev | Sell-through (%) | Status | Notes |
+|--------|-------------:|---------:|-----------------:|--------|-------|
+| Deep Q-Network (DQN) | - | - | - | 🚧 In Progress | Deep Reinforcement Learning |
+
+### Day 1
+
+- Designed the Deep Q-Network (DQN) architecture using PyTorch.
+- Built a neural network with two hidden layers and ReLU activation.
+- Configured the output layer to predict Q-values for ten discrete pricing actions.
+- Verified forward propagation and action selection.
+
+### Day 2
+
+- Implemented the Target Network for stable learning.
+- Added periodic hard synchronization using `sync_target_network()`.
+- Successfully synchronized policy and target network weights.
+- Reduced training instability caused by continuously changing target values.
+
+### Upcoming Tasks
+
+- Complete DQN training.
+- Perform hyperparameter tuning.
+- Compare DQN against heuristic and Q-Learning baselines.
+- Generate performance plots and evaluation reports.
+- Integrate the trained model into the Streamlit dashboard.
+- Export the best-performing model checkpoint.
+
+---
