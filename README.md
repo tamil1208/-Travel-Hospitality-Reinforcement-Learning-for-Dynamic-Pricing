@@ -83,7 +83,7 @@ The agent is benchmarked against three classic heuristic strategies to prove it 
 
 **Success metric:** Mean episodic revenue across simulated booking seasons, RL agent vs. all three baselines.
 
-<br>
+<br> 
 
 ## 🧠 How It Works
 
