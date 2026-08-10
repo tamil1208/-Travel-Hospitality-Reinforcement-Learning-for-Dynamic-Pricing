@@ -246,30 +246,6 @@ dynamic-pricing-rl/
 * Author
 * Acknowledgements
 
----
-
-## 🎯 Overview
-
-Hotels, airlines, and travel platforms lose revenue every day to static or overly simplistic pricing rules. This project designs an **autonomous Reinforcement Learning agent** — trained with **Deep Q-Networks (DQN)** — that learns to dynamically price inventory (rooms, seats, packages) across a simulated booking season.
-
-The agent is benchmarked against three classic heuristic strategies to prove it can learn pricing behavior that **maximizes mean episodic revenue** more effectively than hand-crafted rules.
-
-> **Core question:** *Can an RL agent learn pricing strategies that beat human-designed heuristics — purely from interaction and reward signal?*
-
-<br>
-
-## ⚔️ Agent vs. Baselines
-
-| Strategy | Type | Description |
-|---|---|---|
-| 🎯 **RL Agent (DQN)** | Learned | Adapts pricing policy based on demand signals, time-to-departure, and inventory state |
-| 🔒 Fixed Pricing | Heuristic | Constant price regardless of context |
-| ⏳ Time-based Discounting | Heuristic | Price decays as the booking window closes |
-| 📈 Demand-based Pricing | Heuristic | Price scales directly with observed demand |
-
-**Success metric:** Mean episodic revenue across simulated booking seasons, RL agent vs. all three baselines.
-
-<br> 
 
 ## 🧠 How It Works
 
