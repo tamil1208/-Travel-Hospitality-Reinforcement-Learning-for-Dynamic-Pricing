@@ -1,11 +1,14 @@
-✈️ Travel & Hospitality — Reinforcement Learning for Dynamic Pricing
-Revenue Optimization Using Q-Learning, Deep Q-Networks (DQN), and Gymnasium
+# ✈️ Travel & Hospitality — Reinforcement Learning for Dynamic Pricing
 
-An end-to-end Reinforcement Learning project that learns adaptive pricing strategies for airline seats and hotel rooms using a custom Gymnasium environment.
+### Revenue Optimization Using Q-Learning, Deep Q-Networks (DQN), and Gymnasium
 
-The project models dynamic pricing as a Markov Decision Process (MDP) and progressively develops pricing agents using heuristic strategies, Tabular Q-Learning, and Deep Q-Networks (DQN).
+An end-to-end Reinforcement Learning project that learns adaptive pricing strategies for airline seats and hotel rooms using a custom **Gymnasium environment**.
 
-📌 Project Overview
+The project models dynamic pricing as a **Markov Decision Process (MDP)** and progressively develops pricing agents using heuristic strategies, **Tabular Q-Learning**, and **Deep Q-Networks (DQN)**.
+
+---
+
+## 📌 Project Overview
 
 Travel and hospitality businesses often rely on static or manually designed pricing strategies. These approaches may fail to adapt effectively to changing demand, inventory levels, and time remaining before departure or booking deadlines.
 
@@ -13,69 +16,86 @@ This project addresses the problem by developing an autonomous Reinforcement Lea
 
 The primary objective is to determine whether a learned RL policy can maximize revenue more effectively than traditional pricing heuristics.
 
-Core Question
+### Core Question
 
-Can a Reinforcement Learning agent learn a pricing strategy that outperforms human-designed pricing rules using only interaction and reward signals?
+> **Can a Reinforcement Learning agent learn a pricing strategy that outperforms human-designed pricing rules using only interaction and reward signals?**
 
-🎯 Project Objectives
-Formulate dynamic pricing as a Markov Decision Process.
-Build a custom Gymnasium pricing environment.
-Simulate stochastic customer demand.
-Implement traditional pricing strategies as baselines.
-Develop a Tabular Q-Learning agent.
-Develop a PyTorch-based Deep Q-Network.
-Compare learned policies against heuristic strategies.
-Analyze revenue and inventory sell-through behavior.
-Evaluate training stability and convergence.
-Study how the learned policy responds to time-to-departure and remaining inventory.
-⚔️ Pricing Strategies
+---
 
-The project evaluates multiple pricing strategies.
+## 🎯 Project Objectives
 
-Strategy	Type	Description
-Random Agent	Baseline	Selects pricing actions randomly
-Fixed Price Agent	Heuristic	Maintains a constant price
-Time-Based Discount Agent	Heuristic	Reduces price as the booking deadline approaches
-Demand-Based Pricing Agent	Heuristic	Adjusts price according to demand and inventory
-Q-Learning Agent	RL	Learns an optimal policy using a Q-table
-DQN Agent	Deep RL	Learns pricing decisions using a neural network
-Primary Evaluation Metrics
-Mean episodic revenue
-Revenue standard deviation
-Sell-through rate
-Revenue improvement
-Training reward
-Policy behavior
-Training stability
-🧠 Reinforcement Learning Formulation
+* Formulate dynamic pricing as a Markov Decision Process.
+* Build a custom Gymnasium pricing environment.
+* Simulate stochastic customer demand.
+* Implement traditional pricing strategies as baselines.
+* Develop a Tabular Q-Learning agent.
+* Develop a PyTorch-based Deep Q-Network.
+* Compare learned policies against heuristic strategies.
+* Analyze revenue and inventory sell-through behavior.
+* Evaluate training stability and convergence.
+* Study how the learned policy responds to time-to-departure and remaining inventory.
 
-The dynamic pricing problem is represented as a Markov Decision Process (MDP).
+---
 
-State
+## ⚔️ Pricing Strategies
+
+The project evaluates multiple pricing strategies:
+
+| Strategy                       | Type      | Description                                      |
+| ------------------------------ | --------- | ------------------------------------------------ |
+| **Random Agent**               | Baseline  | Selects pricing actions randomly                 |
+| **Fixed Price Agent**          | Heuristic | Maintains a constant price                       |
+| **Time-Based Discount Agent**  | Heuristic | Reduces price as the booking deadline approaches |
+| **Demand-Based Pricing Agent** | Heuristic | Adjusts price according to demand and inventory  |
+| **Q-Learning Agent**           | RL        | Learns an optimal policy using a Q-table         |
+| **DQN Agent**                  | Deep RL   | Learns pricing decisions using a neural network  |
+
+### Primary Evaluation Metrics
+
+* Mean episodic revenue
+* Revenue standard deviation
+* Sell-through rate
+* Revenue improvement
+* Training reward
+* Policy behavior
+* Training stability
+
+---
+
+# 🧠 Reinforcement Learning Formulation
+
+The dynamic pricing problem is represented as a **Markov Decision Process (MDP)**.
+
+### State
 
 The environment state contains information such as:
 
-Remaining inventory
-Days or time remaining
-Demand-related information
-Current pricing context
-Action
+* Remaining inventory
+* Days or time remaining
+* Demand-related information
+* Current pricing context
+
+### Action
 
 The agent selects a price from a predefined set of discrete pricing actions.
 
-Reward
+### Reward
 
 The reward represents the revenue generated from the pricing decision.
 
-Transition
+### Transition
 
 After an action is selected, the environment simulates customer demand, updates inventory, and moves to the next time step.
 
-Episode
+### Episode
 
 One episode represents a simulated booking season in which the agent repeatedly makes pricing decisions until the inventory is exhausted or the booking horizon ends.
 
-🏗️ Project Architecture
+---
+
+# 🏗️ Project Architecture
+
+```text
 Customer Demand
       │
       ▼
@@ -111,17 +131,28 @@ Customer Demand
              │
              ▼
  Revenue & Policy Analysis
-🛠️ Technology Stack
-Category	Technologies
-Programming Language	Python
-RL Environment	Gymnasium
-Deep Learning	PyTorch
-Data Processing	NumPy, Pandas
-Visualization	Matplotlib, Seaborn
-Testing	PyTest
-Version Control	Git, GitHub
-Development	Jupyter Notebook
-📂 Repository Structure
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Category             | Technologies        |
+| -------------------- | ------------------- |
+| Programming Language | Python              |
+| RL Environment       | Gymnasium           |
+| Deep Learning        | PyTorch             |
+| Data Processing      | NumPy, Pandas       |
+| Visualization        | Matplotlib, Seaborn |
+| Testing              | PyTest              |
+| Version Control      | Git, GitHub         |
+| Development          | Jupyter Notebook    |
+
+---
+
+# 📂 Repository Structure
+
+```text
 dynamic-pricing-rl/
 │
 ├── env/
@@ -146,22 +177,18 @@ dynamic-pricing-rl/
 │
 ├── requirements.txt
 └── README.md
-📅 Development Roadmap
-Week	Focus
-Week 1	MDP formulation and Gymnasium environment
-Week 2	Heuristic strategies and Tabular Q-Learning
-Week 3	DQN architecture, training and benchmarking
-Week 4	Final evaluation, visualization and reporting
+```
 
+---
 
+# 📅 Development Roadmap
 
-
-
-
-
-
-
-
+| Week       | Focus                                         |
+| ---------- | --------------------------------------------- |
+| **Week 1** | MDP formulation and Gymnasium environment     |
+| **Week 2** | Heuristic strategies and Tabular Q-Learning   |
+| **Week 3** | DQN architecture, training and benchmarking   |
+| **Week 4** | Final evaluation, visualization and reporting |
 
 
 
