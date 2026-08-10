@@ -36,15 +36,7 @@
 
 </div>
 
----
 
-# ✈️ Travel & Hospitality — Reinforcement Learning for Dynamic Pricing
-
-### Revenue Optimization Using Q-Learning, Deep Q-Networks (DQN), and Gymnasium
-
-An end-to-end Reinforcement Learning project that learns adaptive pricing strategies for airline seats and hotel rooms using a custom **Gymnasium environment**.
-
-The project models dynamic pricing as a **Markov Decision Process (MDP)** and progressively develops pricing agents using heuristic strategies, **Tabular Q-Learning**, and **Deep Q-Networks (DQN)**.
 
 ---
 
