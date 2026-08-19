@@ -37,7 +37,7 @@
 </div>
 
 
-## Live Dashboard : dynamicpricingcontrolroom.netlify.app
+## Live Dashboard : https://dynamicpricingcontrolroom.netlify.app
 ---
 
 ## 📌 Project Overview
